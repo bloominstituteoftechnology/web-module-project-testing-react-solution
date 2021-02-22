@@ -26,8 +26,6 @@ test('renders without errors', ()=>{
 });
 
 test('renders Loading component when prop show is null', () => {
-    const handleSelect = jest.fn();
-
     render(<Show show={null} />);
     const loading = screen.queryByTestId("loading-container");
     
@@ -43,8 +41,6 @@ test('renders same number of options seasons are passed in', ()=>{
 });
 
 test('handleSelect is called when an season is selected', () => {
-    const handleSelect = jest.fn();
-
     render(<Show show={testShow} handleSelect={handleSelect} selectedSeason={"none"}/>);
     const select = screen.queryByLabelText("Select A Season");
     userEvent.selectOptions(select, ['1']);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import Loading from "./Loading";
 import Show from "./Show";
@@ -17,7 +17,7 @@ const Display = (props) => {
             if (displayFunc) {
                 displayFunc();
             }
-            
+
         });
     }
         

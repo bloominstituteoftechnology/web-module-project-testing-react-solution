@@ -46,7 +46,8 @@ Get the project fired up and start using it as a user would. Try to go through t
 * [ ] Test that the episode component DOES NOT render when the selectedSeason props is "none" and DOES render the episode component when the selectedSeason prop has a valid season index.
 
 ### The Display Component
-> *This component holds the state values of the application and handles api calls. In this component's tests, you work with mocking external modules and working with async / await / waitFor*
+> *This component holds the state values of the application and handles api calls. In this component's tests, you work with mocking external modules and working with async / await / waitFor. Also in this challenge, you will need to build ALL the code for the suite yourself*
+* [ ] Add in nessisary imports and values to establish the testing suite.
 * [ ] Test that the Display component renders without any passed in props.
 * [ ] Rebuild or copy a show test data element as used in the previous set of tests.
 * [ ] Test that when the fetch button is pressed, the show component will display. Make sure to account for the api call and change of state in building your test.
