@@ -1,19 +1,19 @@
-# Integration Testing React Components: Stranger Things
+# Unit Testing React Module Project: Stranger Things
 
 This module explored making testing the passing of props into test components, rerendering components and using mocks to both monitor functional props passing and mock external modules. In this project, you will practice each of these practices in the testing of an application that displays TV show data.
 
-### Objectives
-
+## Objectives
 - Understand how to test the effects of passing specific props into a component
 - Understand how to monitor the behavoir of functional mock props.
 - Understand how and when to test using the rerender method
 - Learn how to mock the use of an external module
 
-### Introduction
-
+## Introduction
 As a developer, you will be asked to write tests for the feature you are building, and even sometimes on components and features other developers have built. This project will mimic a situation where you are asked to test someone else's code.
 
 Get the project fired up and start using it as a user would. Try to go through the user sequences for this feature that you think users would go through. Once you have those in mind, you will have an idea of what to test in your application.
+
+![Stranger Example](project-goals.gif)
 
 ## Instructions
 ### Task 1: Project Set Up
